@@ -1,0 +1,20 @@
+.logout-div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    background-color: yellow;
+    
+}
+.home-div{
+   width:100%;
+   background-color: green; 
+}
+.logout-btn{
+    border-width:1px ;
+    background-color: aliceblue;
+    border-color: black;
+    color: black;
+    border-radius: 1rem;
+    width: 10rem;
+}

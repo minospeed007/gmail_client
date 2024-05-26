@@ -1,0 +1,195 @@
+.register-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+}
+.text-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.text-div h4, .text-div small { margin: .1rem; }
+.h3-text{
+    text-align: center;
+    color:rgb(41, 39, 39);
+}
+.h5-text{
+    text-align: center;
+    font-size: .5rem;
+    color: rgb(68, 66, 66);
+}
+.register-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38rem;
+    gap: 1rem;
+    width: 40%;
+    background-color: white;
+    flex-direction: column;
+
+}
+.line{
+    width: 12rem;
+}
+.login-link {
+    display: inline; 
+    text-decoration: none;
+  }
+  .login-p{
+    display: inline;
+  }
+  .account-div small {
+    margin: 0;
+    padding: 0;
+  }
+  .account-div{
+    margin-bottom: 2rem;
+  }
+#signInDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24rem;
+    margin-bottom: 1rem;
+}
+.line-div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top:1rem;
+}
+.input-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:1rem;
+}
+.icon{
+    color:gray;
+    margin-right: .5rem;
+}
+.register-btn{
+    width: 25rem;
+    height:2.5rem;
+    margin-top: 1rem;
+    border-radius: .3rem;
+    border: none;
+    color: white;
+    background-color: rgb(81, 81, 180);
+}
+.password-input-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: .5rem;
+    border: 1px solid rgb(71, 70, 70);
+    width:25.2rem;
+    height: 2.5rem;
+}
+.register-inputs{
+    border-radius: .5rem;
+    border: 1px solid rgb(71, 70, 70);
+    border: none;
+    width:20rem;
+    height: 2rem;
+}
+.register-input{
+    border-radius: .5rem;
+    border: 1px solid rgb(71, 70, 70);
+    width:25rem;
+    height: 2.5rem;
+}
+   
+.register-input:focus{
+    border-color:purple ;
+    border-width: 2px;
+    outline: none;
+}
+
+  
+  @media screen and (max-width:900px) {
+    .register-div{
+        width:85%;
+        height: 35rem;
+    }
+    .line{
+        width: 12rem !important;
+    }
+    
+  }
+
+  @media screen and (max-width:700px) {
+    .register-input{
+        width: 25rem;
+    }
+.register-div{
+    height: 35rem;
+}
+.line{
+    width: 12rem !important;
+}
+.or{
+    font-size: 0.8rem;
+}
+.register-btn{
+    width: 25rem;
+}
+  }
+  @media screen and (max-width:600px) {
+    .register-input{
+        width: 18rem;
+    }
+.register-div{
+    height: 35rem;
+}
+.register-btn{
+    width: 18rem;
+}
+.password-input-container{
+    width: 18rem !important;
+}
+.or{
+    font-size: .7rem;
+}
+.line{
+    width:10rem !important;
+}
+.line-div{
+    margin-top: .5rem;
+}
+  }
+  @media screen and (max-width:470px) {
+    .register-input{
+        width: 15rem;
+    }
+.register-div{
+    height: 35rem;
+}
+.register-btn{
+    width: 15rem;
+}
+.password-input-container{
+    width: 15rem !important;
+}
+.line{
+    width: 8rem !important;
+}
+.or{
+    font-size: .7rem;
+}
+.line-div{
+    margin-top: .5rem;
+}
+  }
+  @media screen and (max-width:400px) {
+    .line{
+        width:6rem !important;
+    }
+  }
