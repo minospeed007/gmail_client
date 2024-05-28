@@ -8,13 +8,24 @@
     height: 8rem;
     background-color: black;
 }
-.img-div{
-    width:6.5rem;
-    border-radius: 50%;
-    height: 6.5rem;
-    margin-right:1.5rem;
-    background-color: rgb(226, 136, 151);
+.logo-img{
+    width:4rem;
+    height:4rem;
+
 }
+.img-div {
+    width: 5.1rem;
+    height: 5.1rem;
+    display: flex;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensure that the image doesn't overflow the container */
+    border-radius: 50%; /* Make the container circular */
+    border: 2px solid rgb(226, 136, 151); /* Optional: Add a border around the circle */
+}
+
 .logo-div{
 display:flex;
 justify-content: center;
@@ -31,4 +42,30 @@ align-items: center;
     margin-right: 2rem;
     border-radius: 0.3rem;
     width: 8rem;
+}
+@media screen and (max-width:750px) {
+   
+    .afia-h1{
+        font-size: 1.7rem;
+    }
+    .logout-btn{
+        margin-right: 1rem;
+        width: 7rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .img-div{
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+    .logout-btn {
+       
+        height: 2rem;
+        margin-right: 1rem;
+        width: 5rem;
+    }
+    .afia-h1{
+        font-size: 1.5rem;
+    }
 }

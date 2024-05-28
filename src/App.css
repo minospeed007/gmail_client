@@ -1,12 +1,13 @@
 .app-root {
   
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background-color: pink;
 
 }
 .app{
   width: 100vw;
+  height: 100vh;
 
 
 }

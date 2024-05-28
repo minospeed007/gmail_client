@@ -18,7 +18,7 @@ const signOut = useSignOut();
         <img src={logo} className='logo-img'/>
 
         </div>
-        <h1>Afia</h1>
+        <h1 className='afia-h1'>Afia</h1>
       </div>
         {user ? (
           <button onClick={signOut} className='logout-btn'>

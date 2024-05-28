@@ -35,10 +35,9 @@ try{
 }
     }
  const handleCallbackResponse=(response)=>{
-       // console.log('Encoded JWTid token', response.credential);
-       // const userObject= jwtDecode(response.credential);
-       // setUser(userObject);
-       // console.log(userObject);
+        console.log('Encoded JWTid token', response.credential);
+        const userObject= jwtDecode(response.credential);
+       setUser(userObject);
         document.getElementById("signInDiv").hidden=true;
       
       }

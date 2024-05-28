@@ -2,7 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90vw;
+    width: 100%;
+    margin-bottom: 2rem;
 }
 .text-div{
     display: flex;
@@ -26,7 +27,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 38rem;
+    height: 33rem;
+    margin-top: 2rem;
     gap: 1rem;
     width: 40%;
     background-color: white;

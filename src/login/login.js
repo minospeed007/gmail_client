@@ -107,7 +107,7 @@ className="login-inputs"
 
       </div>
       <div className="account-div">
-<small>Don't have an account? <Link to='/' className="login-link">
+<small>Don't have an account? <Link to='/register' className="login-link">
      <p className="login-p">Register</p>
     </Link>
     </small>
