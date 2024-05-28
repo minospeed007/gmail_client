@@ -1,20 +1,38 @@
-.logout-div{
+
+.div-root{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: yellow;
-    
 }
-.home-div{
-   width:100%;
-   background-color: green; 
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: red;
 }
-.logout-btn{
-    border-width:1px ;
-    background-color: aliceblue;
-    border-color: black;
-    color: black;
-    border-radius: 1rem;
-    width: 10rem;
+
+
+
+.welcome-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 30rem;
+    background-color: whitesmoke;
+}
+
+
+
+.img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-div img {
+    width: 100px; 
+    border-radius: 50%;
 }

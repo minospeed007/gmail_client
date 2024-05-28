@@ -1,27 +1,30 @@
 import React, { useContext } from 'react';
-import {Link} from 'react-router-dom';
-import {UserContext} from '../context/userContext';
-import useSignOut from '../context/signOutContext';
+import { Link } from 'react-router-dom';
+import { UserContext } from '../context/userContext';
+import './home.css';
 
 function Home() {
-  const { user,handleSignOut } = useContext(UserContext); 
-  const signOut=useSignOut();
+  const { user, } = useContext(UserContext); 
 
   return (
-    <div className='home-div'>
-        <div className='logout-div'>
-            {user ? (<button onClick={signOut} className='logout-btn'>
-                Sign out</button>):(<Link to='/login'>
-                <button className='logout-btn'>Login</button>
-            </Link>
-        )}
+    <section >
+      
+      <div className='div-root'>
+      
+        <div className='welcome-div'>
+          {user ? (
+            <div>
+              <div className='img-div'>
+                <img src={user.picture} alt='User' />
+              </div>
+              <h1>Welcome, {user.name}!</h1>
+            </div>
+          ) : (
+            <h1>Welcome!</h1>
+          )}
         </div>
-      {user ? (
-        <h3>Welcome, {user.name}!</h3>
-      ) : (
-        <h1>Welcome!</h1>
-      )}
-    </div>
+      </div>
+    </section>
   );
 }
 

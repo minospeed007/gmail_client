@@ -1,11 +1,15 @@
 .app-root {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: pink;
+  
+  width: 100vw;
   height: 100vh;
-}
+  background-color: pink;
 
+}
+.app{
+  width: 100vw;
+
+
+}
 
 
 @media (prefers-reduced-motion: no-preference) {

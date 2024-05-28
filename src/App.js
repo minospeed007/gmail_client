@@ -2,6 +2,8 @@ import {BrowserRouter,Route, Routes} from 'react-router-dom';
 import Register from './register/register';
 import Login from './login/login';
 import Home from './home/home';
+import Nav from './nav/nav';
+
 
 import {UserProvider} from './context/userContext';
 import './App.css';
@@ -14,6 +16,8 @@ function App() {
     <UserProvider>
     <div className='app-root'>
   <BrowserRouter>
+  <Nav/>
+
     <div className='app'>
     <Routes>
     <Route exact path='/' element={<Home />} />
